@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-image: url(../../assets/img/wallpaper.jpg );
+  background-size: cover;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card-container {
+  background-color: #231E39;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 5px;
+  position: relative;
+  width: 550px;
+  max-width: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.card-container .server {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.card-container .round img{
+  border: 5px solid #03BFCB;
+  border-radius: 50%;
+  max-width: 150px;
+    max-height: 150px;
+  padding: 7px;
+}
+
+button.primary {
+  background-color: transparent;
+  border: 1px solid #03BFCB;
+  border-radius: 3px;
+  color: #02899C;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+.skills {
+  background-color: #1F1A36;
+  text-align: left;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+
+.other-container {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  background-color: #1F1A36;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  max-width: 100%;
+  min-height: 225px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+
+  #player {
+    position: absolute;
+    left: -1200px;
+    top: -1200px;
+    z-index: -99;
+}

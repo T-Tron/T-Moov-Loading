@@ -116,6 +116,10 @@ button.primary {
   vertical-align: middle;
 }
 
+.infotext {
+  font-size: 15px;
+}
+
   #player {
     position: absolute;
     left: -1200px;

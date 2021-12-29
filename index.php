@@ -81,11 +81,11 @@ $table = $table2["response"]["players"][0];
         <div id="overlay"></div>
         <h1>LOADING :</h1>
         <h1>
-          <div id="status">Retrieving information from the server...</div>
+          <div class="infotext" id="status">Retrieving information from the server...</div>
         </h1>
         <h1>YOU ARE LISTENING :</h1>
         <h1>
-          <div id="music-name"></div>
+          <div class="infotext" id="music-name"></div>
         </h1>
       </div>
       <script src="assets/js/lib/jquery-2.1.1.min.js"></script>
